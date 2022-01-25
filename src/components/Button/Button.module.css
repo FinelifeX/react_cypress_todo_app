@@ -1,0 +1,12 @@
+.button {
+  color: var(--color-button-text-primary);
+  background-color: var(--color-button-bg-primary);
+  border: var(--border-width-default) var(--border-style-default) var(--color-accent);
+  border-radius: var(--border-radius-default);
+  text-transform: uppercase;
+}
+
+.buttonSecondary {
+  color: var(--color-button-text-secondary);
+  background-color: var(--color-button-bg-secondary);
+}

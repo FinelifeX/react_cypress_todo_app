@@ -1,0 +1,11 @@
+.input {
+  width: 100%;
+  padding: 0.5em 0.75em;
+  border-radius: var(--border-radius-default);
+  border: var(--border-width-default) var(--border-style-default) var(--border-color-default);
+}
+
+.textarea {
+  composes: input;
+  font-family: sans-serif;
+}
