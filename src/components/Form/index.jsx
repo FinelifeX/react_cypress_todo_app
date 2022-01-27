@@ -39,14 +39,26 @@ export default function Form() {
     <form className={styles.form} onSubmit={onSubmit}>
       <label>
         <span>Name</span>
-        <Input name="name" type="text" value={formData.name} onChange={onFieldChange}/>
+        <Input 
+          data-testid="input-name" 
+          name="name" 
+          type="text" 
+          value={formData.name} 
+          onChange={onFieldChange}
+        />
       </label>
       <label>
         <span>Description</span>
-        <Input.TextArea name="description" rows={5} value={formData.description} onChange={onFieldChange} />
+        <Input.TextArea
+          data-testid="input-description"
+          name="description" 
+          rows={5} 
+          value={formData.description} 
+          onChange={onFieldChange} 
+        />
       </label>
       <div className={styles.formButtons}>
-        <Button htmlType="submit" className={styles.formSubmit} disabled={submitDisabled}>Send</Button>
+        <Button data-testid="button-submit" htmlType="submit" className={styles.formSubmit} disabled={submitDisabled}>Send</Button>
       </div>
     </form>
   )

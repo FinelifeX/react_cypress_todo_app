@@ -4,7 +4,7 @@ export default function Layout({ children }) {
   return (
     <>
       <header className={styles.header}>
-        <h1 className={styles.headerTitle}>
+        <h1 data-testid="app-title" className={styles.headerTitle}>
           To Do Cypress App
         </h1>
       </header>
