@@ -35,8 +35,8 @@ export default function Form() {
           <span>Description</span>
           <Input.TextArea name="description" rows={5} onChange={onFieldChange} />
         </label>
-        <div>
-          <Button htmlType="submit">Send</Button>
+        <div className={styles.formButtons}>
+          <Button htmlType="submit" className={styles.formSubmit}>Send</Button>
         </div>
       </form>
     </div>
