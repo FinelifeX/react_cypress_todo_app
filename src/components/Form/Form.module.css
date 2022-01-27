@@ -1,14 +1,5 @@
-.formContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-}
-
 .form {
   width: 100%;
-  max-width: 284px;
   display: flex;
   flex-direction: column;
   gap: 16px;

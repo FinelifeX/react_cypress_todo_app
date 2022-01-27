@@ -1,0 +1,35 @@
+.container {
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.todoMark {
+
+}
+
+.todoContent {
+  flex: 1;
+}
+
+.todoTitle {
+
+}
+
+.todoDescription {
+
+}
+
+.todoRemove {
+  background-color: crimson;
+  color: var(--color-text-light);
+  border: var(--border-width-default) var(--border-style-default) crimson;
+  border-radius: var(--border-radius-default);
+}

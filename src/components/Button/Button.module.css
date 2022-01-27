@@ -6,6 +6,11 @@
   text-transform: uppercase;
 }
 
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .buttonSecondary {
   color: var(--color-button-text-secondary);
   background-color: var(--color-button-bg-secondary);

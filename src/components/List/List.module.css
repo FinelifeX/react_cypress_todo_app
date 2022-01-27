@@ -1,0 +1,13 @@
+.list {
+
+}
+
+.listItem {
+  background-color: #e2e2e2;
+  padding: 6px 12px;
+  border-radius: var(--border-radius-default);
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 12px;
+}
