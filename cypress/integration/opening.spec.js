@@ -1,13 +1,8 @@
-// sample.spec.js created with Cypress
-//
-// Start writing your Cypress tests below!
-// If you're unfamiliar with how Cypress works,
-// check out the link below and learn how to write your first test:
-// https://on.cypress.io/writing-first-test
+/// <reference types="cypress" />
 
-describe('Sample spec', () => {
+describe('App opening spec', () => {
   it('should open correctly', () => {
-    cy.visit('http://localhost:3000');
+    cy.visit('/');
     cy.get('*[data-testid="app-title"]')
       .should('exist')
       .should('contain.text', 'Cypress');
